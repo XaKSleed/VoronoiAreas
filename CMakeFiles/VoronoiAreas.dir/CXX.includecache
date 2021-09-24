@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/buhvalov/CLionProjects/VoronoiAreas/AreasBuilder.h
+vector
+-
+random
+-
+cmath
+-
+
+/home/buhvalov/CLionProjects/VoronoiAreas/main.cpp
+iostream
+-
+AreasBuilder.h
+/home/buhvalov/CLionProjects/VoronoiAreas/AreasBuilder.h
+
